@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0 10px;
+  }
+}
+
+.background-image {
+  background-image: url(https://preview.colorlib.com/theme/uptown/images/bg_1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.header {
+  border: 1px solid;
+  width: 100%;
+  height: 93px;
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+.Uptown {
+  font-size: 23px;
+}
+.menus {
+  display: flex;
+  gap: 26px;
+}
+.text-center {
+  text-align: center;
+}
+.heading {
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.para {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+}
+
+.searchbar {
+  border-radius: 40px;
+  border: none;
+  height: 70px;
+  width: 40%;
+  padding-left: 53px;
+  font-size: 18px;
+  box-shadow:  0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.search-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 0 50% 50% 50%;
+  background: #e86ed0;
+  border: none;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  cursor: pointer;
+  color: white;
+}
+@media (max-width: 700px) {
+  .menus {
+    display: none;
+  }
+}
+.menuicon {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .menuicon {
+    display: block;
+  }
+}
+.searchbar-container {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+@media (max-width: 700px) {
+  .searchbar {
+    width: 63%;
+    height: 48px;
+    padding-left: 18px;
+  }
+
+  .search-btn {
+    width: 53px;
+    height: 51px;
+    /* margin-right: -68px; */
+  }
+
+  .text-center {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 48px;
+  }
+  .para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+  }
+  .para {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 32px;
+  }
+  .para {
+    font-size: 14px;
+  }
+}
